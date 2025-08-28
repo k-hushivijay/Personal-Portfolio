@@ -9,13 +9,13 @@ const Footer = () => {
         <p>© 2025 Khushi Vijay. All rights reserved.</p>
 
         <div className="social-icons">
-          <a href="mailto:khushiivj30@gmail.com" aria-label="Email">
+          <a href="mailto:khushivj30@gmail.com" aria-label="Email">
             <FaEnvelope />
           </a>
-          <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/khushi-vijay-313022feb/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin />
           </a>
-          <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <a href="https://github.com/k-hushivijay" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <FaGithub />
           </a>
         </div>
