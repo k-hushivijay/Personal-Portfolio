@@ -731,4 +731,86 @@ button:focus-visible {
 
 .social-icons a:hover {
   color: #00adb5;
+
+
+}
+
+/* Responsive Enhancements */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .header {
+    padding: 15px 30px;
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+  }
+  .project-card {
+    width: calc(50% - 20px);
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .header nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .hero {
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .about, .skills, .experience-section, .contact-section {
+    padding: 50px 15px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+  }
+
+  .skill-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .footer-section {
+    padding: 15px 10px;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+    margin: 0 6px;
+  }
 }
